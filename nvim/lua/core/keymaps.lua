@@ -85,3 +85,8 @@ end, { desc = 'Go to next diagnostic message' })
 
 vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, { desc = 'Open floating diagnostic message' })
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostics list' })
+
+-- Run run.sh and debug.sh
+
+vim.keymap.set('n', '<leader>rr', ':call VimuxRunCommand("./run.sh")<CR>', { desc = 'Run run.sh script' })
+vim.keymap.set('n', '<leader>rd', ':call VimuxRunCommand("./debug.sh")<CR>', { desc = 'Debug debug.sh script' })

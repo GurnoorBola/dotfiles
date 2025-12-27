@@ -7,12 +7,20 @@ return {
     end,
   },
   {
-    -- Signs for git
-    'lewis6991/gitsigns.nvim',
+    -- Plugin to send input to tmux from vim
+    'preservim/vimux',
+  },
+  {
+    -- Plugin for seamless tmux navigation
+    'christoomey/vim-tmux-navigator',
   },
   {
     -- Plugin to show keybinds
     'folke/which-key.nvim',
+  },
+  {
+    -- Plugin to show git changes
+    'lewis6991/gitsigns.nvim',
   },
   {
     -- Powerful Git integration for Vim
